@@ -9,7 +9,7 @@
 ``` shell
 docker stop phpmyadmin 
 docker rm phpmyadmin 
-docker run -d --name  --hostname phpmyadmin --privileged \
+docker run -d --name phpmyadmin  --hostname phpmyadmin \
   -p 80:80 -p 443:443 \
   -v /data/phpmyadmin/ssl:/etc/nginx/ssl \
   -e MYSQL_HOST="x.x.x.x" \
