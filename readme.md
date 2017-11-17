@@ -15,3 +15,4 @@ docker run -d --name  --hostname phpmyadmin --privileged \
   -e MYSQL_HOST="x.x.x.x" \
 phpmyadmin
 ```
+https://x.x.x.x/xcache admin admin
